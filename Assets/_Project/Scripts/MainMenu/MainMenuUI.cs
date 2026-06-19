@@ -1,0 +1,23 @@
+using UnityEngine;
+using UnityEngine.UI;
+
+ class MainMenuUI : MonoBehaviour
+{
+    [Header("References")]
+    [SerializeField] private Button playButton;
+    [SerializeField] private Button quitButton;
+
+
+    private void Start()
+    {
+        playButton.onClick.AddListener(() =>
+        {
+            Loader.Load(Loader.Scene.GameScene);
+        });
+        quitButton.onClick.AddListener(() =>
+        {
+            Application.Quit();
+        });
+    }
+
+}   

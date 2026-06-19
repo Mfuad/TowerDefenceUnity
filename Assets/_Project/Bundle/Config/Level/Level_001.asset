@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04e6ed523f3108949a7750dd0c0c88e3, type: 3}
+  m_Name: Level_001
+  m_EditorClassIdentifier: 
+  Name: Level_001
+  MaxHealth: 30
+  Path:
+    m_EditModeType: 1
+    m_Knots: []
+    m_MetaData: []
+    m_Closed: 0
+    m_IntData:
+      m_Data: []
+    m_FloatData:
+      m_Data: []
+    m_Float4Data:
+      m_Data: []
+    m_ObjectData:
+      m_Data: []
+  LevelScene:
+    m_AssetGUID: 1cbbc02fbc5c5974495f36299b44cdce
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0
+  EnemyTypes:
+  - {fileID: 11400000, guid: 23806df80d3c6264d9f25b65511187fa, type: 2}
+  - {fileID: 11400000, guid: dd4e78054b928b742a1f07b9ce8b5b0d, type: 2}
