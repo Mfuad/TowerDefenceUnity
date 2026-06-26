@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading;
 using UnityEngine.ResourceManagement.ResourceProviders;
-using static TowerDefense.Assets._Project.Scripts.Utilities.AddressablesSceneLoader;
 
 namespace TowerDefense.Scripts.Utilities.Core
 {

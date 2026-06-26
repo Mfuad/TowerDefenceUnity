@@ -12,6 +12,7 @@ using UnityEngine.SceneManagement;
 
 namespace TowerDefense.Scripts.Utilities
 {
+    // deprecated 
     public class AddressableProvider
     {
         private Dictionary<string, AsyncOperationHandle> _cache = new();

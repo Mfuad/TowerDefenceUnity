@@ -10,8 +10,9 @@ using UnityEngine.ResourceManagement.ResourceProviders;
 using UnityEngine.SceneManagement;
 using static UnityEngine.Rendering.VirtualTexturing.Debugging;
 
-namespace TowerDefense.Assets._Project.Scripts.Utilities
+namespace TowerDefense.Scripts.Utilities
 {
+    // deprecated
     public enum Config
     {
         Core,

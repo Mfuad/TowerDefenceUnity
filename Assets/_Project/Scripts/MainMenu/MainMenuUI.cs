@@ -12,7 +12,7 @@ using UnityEngine.UI;
     {
         playButton.onClick.AddListener(() =>
         {
-            Loader.Load(Loader.Scene.GameScene);
+            //Loader.Load(Loader.Scene.GameScene);
         });
         quitButton.onClick.AddListener(() =>
         {

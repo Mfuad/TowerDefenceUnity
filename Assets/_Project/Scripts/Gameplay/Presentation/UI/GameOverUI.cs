@@ -16,11 +16,11 @@ using UnityEngine.UI;
 
         mainMenuButton.onClick.AddListener(() =>
         {
-            Loader.Load(Loader.Scene.MainMenuScene);
+            //Loader.Load(Loader.Scene.MainMenuScene);
         });
         restartButton.onClick.AddListener(() =>
         {
-            Loader.Load(Loader.Scene.GameScene);
+            //Loader.Load(Loader.Scene.GameScene);
         });
 
         Hide();
